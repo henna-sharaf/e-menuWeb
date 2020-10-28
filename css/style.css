@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    width: 100%;
+    transition: 0.6s;
+}
+.nav-link{
+    color: #fff !important;
+}
+header.sticky{
+    padding: 5px 100px;
+    background: #F4990B;
+}
+/*start header
+
+.header {
+    height: 500px;
+    background-image: url(..//images/background1.jpg);
+    background-size: 100% 100%;
+}
+.overlay{
+    background-image: linear-gradient(to top,#ffffff00,#F9940B);
+    width: 100%;
+    height: 100%;
+}*/
+/* end header*/
+.slide{
+    position: relative;
+}
+.background-withcolor{
+    background: #F9940B !important;
+}
+.backwithover{
+    background-position: 40%;
+    background-image: linear-gradient(to bottom right,#ffff00,#F9940B),url(..//images/background1.jpg);
+    background-size: cover;
+}
+.largeback{
+    background-image: linear-gradient(to bottom right,#ffff00,#F9940B)
+}
+.slide .content-bottom {
+    padding-top: 200px;
+    position: relative;
+    z-index: 1;
+}
+.first h2{
+    font-size: 50px;
+    margin: 20px 0;
+}
+.b-radius{
+    border-radius: 0 100px;
+}
+.imgwidth{
+    width: 150px;
+}
+.padding-100 {
+    padding: 100px 0;
+}
+.box {
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.icon{}
+.space-20{
+    height: 20px;
+}
+.space-15{
+    height: 15px;
+}
+.fontsize-20{
+    font-size: 20px;
+}
+/*preview*/
+.preview-h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+/*contact*/
+.contact-title {
+    text-align: center;
+    font-size: xxx-large;
+    padding-bottom: 50px;
+}
+.withcolor{
+    color: #F9940B;
+}
+.form-input{
+    border-style: none;
+    border-bottom: 2px solid #F9940B;
+    width: 100%;
+    font-size: 20px;
+}
+.form-control{
+    border: none !important;
+    border-bottom: 2px solid #F9940B !important;
+    font-weight: 300 !important;
+    padding: 10px 20px !important;
+    margin-bottom: 1.5rem !important;
+}
+.btn-primary{
+    background: #F9940B !important;
+    border-radius: 25px !important;
+    border: none !important;
+    padding: 10px !important;
+}
+@media screen and (max-width: 600px){
+    input{
+        width: 100%;
+    }
+}
+/*footer*/
+.fa{
+    color: #F9940B;
+    font-size: xxx-large !important;
+}
